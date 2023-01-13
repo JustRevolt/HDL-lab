@@ -1,0 +1,9 @@
+*
+!*/
+!.gitignore
+!*test.log
+!*.sv
+!*new\*.mem
+!*.xpr
+!*.xdc
+!*.wcfg
