@@ -1,0 +1,911 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jan 13 11:41:10 2023
+# Process ID: 11492
+# Current directory: E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8916 E:\University\University_Projects\Code_Project-based_magistracy\vivado\proc_model\model\model.xpr
+# Log file: E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/vivado.log
+# Journal file: E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:13 . Memory (MB): peak = 788.797 ; gain = 204.219
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_vlog.prj"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sources_1/new/systol_array.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module systol_array
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sources_1/new/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+"xvhdl --incr --relax -prj top_vhdl.prj"
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 852.008 ; gain = 18.152
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+set_property top tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xelab -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim/xsim.dir/tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Jan 13 11:51:25 2023. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Jan 13 11:51:25 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 852.008 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg
+WARNING: Simulation object /tb/clk was not found in the design.
+WARNING: Simulation object /tb/rst was not found in the design.
+WARNING: Simulation object /tb/fifo_full was not found in the design.
+WARNING: Simulation object /tb/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/fifo_din was not found in the design.
+WARNING: Simulation object /tb/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/fifo_count was not found in the design.
+WARNING: Simulation object /tb/data was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/clk was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/srst was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/din was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/wr_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/rd_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/dout was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/full was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/empty was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/data_count was not found in the design.
+WARNING: Simulation object /tb/top/clk was not found in the design.
+WARNING: Simulation object /tb/top/rst was not found in the design.
+WARNING: Simulation object /tb/top/systol_activation was not found in the design.
+WARNING: Simulation object /tb/top/systol_weight was not found in the design.
+WARNING: Simulation object /tb/top/systol_result was not found in the design.
+WARNING: Simulation object /tb/top/weight_change was not found in the design.
+WARNING: Simulation object /tb/top/fifo_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_almost_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/top/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/top/fifo_din was not found in the design.
+WARNING: Simulation object /tb/top/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/top/fifo_count was not found in the design.
+WARNING: Simulation object /tb/top/state was not found in the design.
+WARNING: Simulation object /tb/top/next_state was not found in the design.
+WARNING: Simulation object /tb/top/fill_counter was not found in the design.
+WARNING: Simulation object /tb/top/ID_X was not found in the design.
+WARNING: Simulation object /tb/top/ID_Y was not found in the design.
+WARNING: Simulation object /tb/top/ID_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_X was not found in the design.
+WARNING: Simulation object /tb/top/K_Y was not found in the design.
+WARNING: Simulation object /tb/top/K_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_K was not found in the design.
+WARNING: Simulation object /tb/top/X_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/Y_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/OD_X was not found in the design.
+WARNING: Simulation object /tb/top/OD_Y was not found in the design.
+WARNING: Simulation object /tb/top/OD_Z was not found in the design.
+WARNING: Simulation object /tb/top/ACTIVATION_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/WEIGHT_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/FILL_SYSTOL was not found in the design.
+WARNING: Simulation object /tb/top/CALC_SYSTOL was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          4
+          4
+         11
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 857.258 ; gain = 5.250
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 864.703 ; gain = 0.000
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xelab -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+          4
+          4
+         11
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 864.703 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+$display(25%5?1:0)
+can't read "display(25%5?1:0)": no such variable
+$display(25%5?1:0);
+can't read "display(25%5?1:0)": no such variable
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xelab -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg
+WARNING: Simulation object /tb/clk was not found in the design.
+WARNING: Simulation object /tb/rst was not found in the design.
+WARNING: Simulation object /tb/fifo_full was not found in the design.
+WARNING: Simulation object /tb/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/fifo_din was not found in the design.
+WARNING: Simulation object /tb/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/fifo_count was not found in the design.
+WARNING: Simulation object /tb/data was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/clk was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/srst was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/din was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/wr_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/rd_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/dout was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/full was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/empty was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/data_count was not found in the design.
+WARNING: Simulation object /tb/top/clk was not found in the design.
+WARNING: Simulation object /tb/top/rst was not found in the design.
+WARNING: Simulation object /tb/top/systol_activation was not found in the design.
+WARNING: Simulation object /tb/top/systol_weight was not found in the design.
+WARNING: Simulation object /tb/top/systol_result was not found in the design.
+WARNING: Simulation object /tb/top/weight_change was not found in the design.
+WARNING: Simulation object /tb/top/fifo_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_almost_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/top/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/top/fifo_din was not found in the design.
+WARNING: Simulation object /tb/top/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/top/fifo_count was not found in the design.
+WARNING: Simulation object /tb/top/state was not found in the design.
+WARNING: Simulation object /tb/top/next_state was not found in the design.
+WARNING: Simulation object /tb/top/fill_counter was not found in the design.
+WARNING: Simulation object /tb/top/ID_X was not found in the design.
+WARNING: Simulation object /tb/top/ID_Y was not found in the design.
+WARNING: Simulation object /tb/top/ID_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_X was not found in the design.
+WARNING: Simulation object /tb/top/K_Y was not found in the design.
+WARNING: Simulation object /tb/top/K_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_K was not found in the design.
+WARNING: Simulation object /tb/top/X_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/Y_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/OD_X was not found in the design.
+WARNING: Simulation object /tb/top/OD_Y was not found in the design.
+WARNING: Simulation object /tb/top/OD_Z was not found in the design.
+WARNING: Simulation object /tb/top/ACTIVATION_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/WEIGHT_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/FILL_SYSTOL was not found in the design.
+WARNING: Simulation object /tb/top/CALC_SYSTOL was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+          1
+          0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 867.121 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xelab -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg
+WARNING: Simulation object /tb/clk was not found in the design.
+WARNING: Simulation object /tb/rst was not found in the design.
+WARNING: Simulation object /tb/fifo_full was not found in the design.
+WARNING: Simulation object /tb/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/fifo_din was not found in the design.
+WARNING: Simulation object /tb/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/fifo_count was not found in the design.
+WARNING: Simulation object /tb/data was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/clk was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/srst was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/din was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/wr_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/rd_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/dout was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/full was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/empty was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/data_count was not found in the design.
+WARNING: Simulation object /tb/top/clk was not found in the design.
+WARNING: Simulation object /tb/top/rst was not found in the design.
+WARNING: Simulation object /tb/top/systol_activation was not found in the design.
+WARNING: Simulation object /tb/top/systol_weight was not found in the design.
+WARNING: Simulation object /tb/top/systol_result was not found in the design.
+WARNING: Simulation object /tb/top/weight_change was not found in the design.
+WARNING: Simulation object /tb/top/fifo_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_almost_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/top/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/top/fifo_din was not found in the design.
+WARNING: Simulation object /tb/top/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/top/fifo_count was not found in the design.
+WARNING: Simulation object /tb/top/state was not found in the design.
+WARNING: Simulation object /tb/top/next_state was not found in the design.
+WARNING: Simulation object /tb/top/fill_counter was not found in the design.
+WARNING: Simulation object /tb/top/ID_X was not found in the design.
+WARNING: Simulation object /tb/top/ID_Y was not found in the design.
+WARNING: Simulation object /tb/top/ID_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_X was not found in the design.
+WARNING: Simulation object /tb/top/K_Y was not found in the design.
+WARNING: Simulation object /tb/top/K_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_K was not found in the design.
+WARNING: Simulation object /tb/top/X_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/Y_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/OD_X was not found in the design.
+WARNING: Simulation object /tb/top/OD_Y was not found in the design.
+WARNING: Simulation object /tb/top/OD_Z was not found in the design.
+WARNING: Simulation object /tb/top/ACTIVATION_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/WEIGHT_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/FILL_SYSTOL was not found in the design.
+WARNING: Simulation object /tb/top/CALC_SYSTOL was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+         18446744082299486211
+'{0,0,0}
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 867.121 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xelab -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg
+WARNING: Simulation object /tb/clk was not found in the design.
+WARNING: Simulation object /tb/rst was not found in the design.
+WARNING: Simulation object /tb/fifo_full was not found in the design.
+WARNING: Simulation object /tb/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/fifo_din was not found in the design.
+WARNING: Simulation object /tb/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/fifo_count was not found in the design.
+WARNING: Simulation object /tb/data was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/clk was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/srst was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/din was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/wr_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/rd_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/dout was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/full was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/empty was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/data_count was not found in the design.
+WARNING: Simulation object /tb/top/clk was not found in the design.
+WARNING: Simulation object /tb/top/rst was not found in the design.
+WARNING: Simulation object /tb/top/systol_activation was not found in the design.
+WARNING: Simulation object /tb/top/systol_weight was not found in the design.
+WARNING: Simulation object /tb/top/systol_result was not found in the design.
+WARNING: Simulation object /tb/top/weight_change was not found in the design.
+WARNING: Simulation object /tb/top/fifo_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_almost_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/top/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/top/fifo_din was not found in the design.
+WARNING: Simulation object /tb/top/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/top/fifo_count was not found in the design.
+WARNING: Simulation object /tb/top/state was not found in the design.
+WARNING: Simulation object /tb/top/next_state was not found in the design.
+WARNING: Simulation object /tb/top/fill_counter was not found in the design.
+WARNING: Simulation object /tb/top/ID_X was not found in the design.
+WARNING: Simulation object /tb/top/ID_Y was not found in the design.
+WARNING: Simulation object /tb/top/ID_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_X was not found in the design.
+WARNING: Simulation object /tb/top/K_Y was not found in the design.
+WARNING: Simulation object /tb/top/K_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_K was not found in the design.
+WARNING: Simulation object /tb/top/X_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/Y_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/OD_X was not found in the design.
+WARNING: Simulation object /tb/top/OD_Y was not found in the design.
+WARNING: Simulation object /tb/top/OD_Z was not found in the design.
+WARNING: Simulation object /tb/top/ACTIVATION_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/WEIGHT_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/FILL_SYSTOL was not found in the design.
+WARNING: Simulation object /tb/top/CALC_SYSTOL was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+         18446744082299486211
+'{0,0,0}
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 867.121 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xelab -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg
+WARNING: Simulation object /tb/clk was not found in the design.
+WARNING: Simulation object /tb/rst was not found in the design.
+WARNING: Simulation object /tb/fifo_full was not found in the design.
+WARNING: Simulation object /tb/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/fifo_din was not found in the design.
+WARNING: Simulation object /tb/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/fifo_count was not found in the design.
+WARNING: Simulation object /tb/data was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/clk was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/srst was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/din was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/wr_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/rd_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/dout was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/full was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/empty was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/data_count was not found in the design.
+WARNING: Simulation object /tb/top/clk was not found in the design.
+WARNING: Simulation object /tb/top/rst was not found in the design.
+WARNING: Simulation object /tb/top/systol_activation was not found in the design.
+WARNING: Simulation object /tb/top/systol_weight was not found in the design.
+WARNING: Simulation object /tb/top/systol_result was not found in the design.
+WARNING: Simulation object /tb/top/weight_change was not found in the design.
+WARNING: Simulation object /tb/top/fifo_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_almost_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/top/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/top/fifo_din was not found in the design.
+WARNING: Simulation object /tb/top/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/top/fifo_count was not found in the design.
+WARNING: Simulation object /tb/top/state was not found in the design.
+WARNING: Simulation object /tb/top/next_state was not found in the design.
+WARNING: Simulation object /tb/top/fill_counter was not found in the design.
+WARNING: Simulation object /tb/top/ID_X was not found in the design.
+WARNING: Simulation object /tb/top/ID_Y was not found in the design.
+WARNING: Simulation object /tb/top/ID_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_X was not found in the design.
+WARNING: Simulation object /tb/top/K_Y was not found in the design.
+WARNING: Simulation object /tb/top/K_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_K was not found in the design.
+WARNING: Simulation object /tb/top/X_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/Y_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/OD_X was not found in the design.
+WARNING: Simulation object /tb/top/OD_Y was not found in the design.
+WARNING: Simulation object /tb/top/OD_Z was not found in the design.
+WARNING: Simulation object /tb/top/ACTIVATION_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/WEIGHT_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/FILL_SYSTOL was not found in the design.
+WARNING: Simulation object /tb/top/CALC_SYSTOL was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+                            x
+'{0,0,0}
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 867.121 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xelab -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+                            x
+'{0,0,0}
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 867.633 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xelab -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+                            x
+'{0,0,0}
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 885.207 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xelab -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -view {E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/tb_behav.wcfg
+WARNING: Simulation object /tb/clk was not found in the design.
+WARNING: Simulation object /tb/rst was not found in the design.
+WARNING: Simulation object /tb/fifo_full was not found in the design.
+WARNING: Simulation object /tb/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/fifo_din was not found in the design.
+WARNING: Simulation object /tb/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/fifo_count was not found in the design.
+WARNING: Simulation object /tb/data was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/clk was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/srst was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/din was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/wr_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/rd_en was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/dout was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/full was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/empty was not found in the design.
+WARNING: Simulation object /tb/weight_fifo/data_count was not found in the design.
+WARNING: Simulation object /tb/top/clk was not found in the design.
+WARNING: Simulation object /tb/top/rst was not found in the design.
+WARNING: Simulation object /tb/top/systol_activation was not found in the design.
+WARNING: Simulation object /tb/top/systol_weight was not found in the design.
+WARNING: Simulation object /tb/top/systol_result was not found in the design.
+WARNING: Simulation object /tb/top/weight_change was not found in the design.
+WARNING: Simulation object /tb/top/fifo_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_almost_full was not found in the design.
+WARNING: Simulation object /tb/top/fifo_wr_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_empty was not found in the design.
+WARNING: Simulation object /tb/top/fifo_rd_en was not found in the design.
+WARNING: Simulation object /tb/top/fifo_srst was not found in the design.
+WARNING: Simulation object /tb/top/fifo_din was not found in the design.
+WARNING: Simulation object /tb/top/fifo_dout was not found in the design.
+WARNING: Simulation object /tb/top/fifo_count was not found in the design.
+WARNING: Simulation object /tb/top/state was not found in the design.
+WARNING: Simulation object /tb/top/next_state was not found in the design.
+WARNING: Simulation object /tb/top/fill_counter was not found in the design.
+WARNING: Simulation object /tb/top/ID_X was not found in the design.
+WARNING: Simulation object /tb/top/ID_Y was not found in the design.
+WARNING: Simulation object /tb/top/ID_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_X was not found in the design.
+WARNING: Simulation object /tb/top/K_Y was not found in the design.
+WARNING: Simulation object /tb/top/K_Z was not found in the design.
+WARNING: Simulation object /tb/top/K_K was not found in the design.
+WARNING: Simulation object /tb/top/X_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/Y_OFFSET was not found in the design.
+WARNING: Simulation object /tb/top/OD_X was not found in the design.
+WARNING: Simulation object /tb/top/OD_Y was not found in the design.
+WARNING: Simulation object /tb/top/OD_Z was not found in the design.
+WARNING: Simulation object /tb/top/ACTIVATION_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/WEIGHT_COUNT was not found in the design.
+WARNING: Simulation object /tb/top/FILL_SYSTOL was not found in the design.
+WARNING: Simulation object /tb/top/CALC_SYSTOL was not found in the design.
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+         92233720385727627267
+'{0,0,0}
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 885.207 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2019.1/data/xsim/xsim.ini' copied to run dir:'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.sim/sim_1/behav/xsim'
+"xelab -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 89537c4937be422581eda413788a9d71 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+         92233720385727627267
+'{0,0,0}
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 885.207 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 2
+[Fri Jan 13 19:15:54 2023] Launched synth_1...
+Run output will be captured here: E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.runs/synth_1/runme.log
+[Fri Jan 13 19:15:54 2023] Launched impl_1...
+Run output will be captured here: E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.runs/impl_1/runme.log

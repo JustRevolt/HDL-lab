@@ -1,0 +1,278 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 10068
+License: Customer
+
+Current time: 	Thu Jan 12 20:56:12 MSK 2023
+Time zone: 	Moscow Standard Time (Europe/Moscow)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 31 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	serhg
+User home directory: C:/Users/serhg
+User working directory: E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model
+User country: 	RU
+User language: 	ru
+User locale: 	ru_RU
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/serhg/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/serhg/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/serhg/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/vivado.log
+Vivado journal file location: 	E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/vivado.jou
+Engine tmp dir: 	E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/.Xil/Vivado-10068-DESKTOP-7NFTMLA
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 558 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 61 MB (+61195kb) [00:00:13]
+// [Engine Memory]: 545 MB (+420051kb) [00:00:13]
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: E:\University\University_Projects\Code_Project-based_magistracy\vivado\proc_model\model\model.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model' 
+// HMemoryUtils.trashcanNow. Engine heap size: 593 MB. GUI used memory: 45 MB. Current time: 1/12/23, 8:56:14 PM MSK
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 710 MB (+143900kb) [00:00:26]
+// [GUI Memory]: 75 MB (+12135kb) [00:00:26]
+// [GUI Memory]: 97 MB (+18565kb) [00:00:27]
+// [GUI Memory]: 104 MB (+2235kb) [00:00:28]
+// WARNING: HEventQueue.dispatchEvent() is taking  5053 ms.
+// Tcl Message: open_project E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model/model.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// Project name: model; location: E:/University/University_Projects/Code_Project-based_magistracy/vivado/proc_model/model; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:17 . Memory (MB): peak = 766.137 ; gain = 184.004 
+dismissDialog("Open Project"); // by (cl)
+// [Engine Memory]: 750 MB (+5038kb) [00:00:31]
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 770 MB. GUI used memory: 49 MB. Current time: 1/12/23, 8:56:34 PM MSK
+// PAPropertyPanels.initPanels (top.sv) elapsed time: 0.2s
+// Elapsed time: 60 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.sv)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.sv)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 796 MB. GUI used memory: 51 MB. Current time: 1/12/23, 8:57:30 PM MSK
+// [Engine Memory]: 797 MB (+10028kb) [00:01:33]
+// [GUI Memory]: 110 MB (+1032kb) [00:03:32]
+// Elapsed time: 316 seconds
+selectCodeEditor("top.sv", 435, 246); // cl (w, cl)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 285ms to process. Increasing delay to 2000 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 29 seconds
+selectCodeEditor("top.sv", 52, 122); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 44 seconds
+selectCodeEditor("top.sv", 86, 110); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 206ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 1399 seconds
+typeControlKey(null, null, 'z');
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 52 MB. Current time: 1/12/23, 9:27:35 PM MSK
+// Elapsed time: 754 seconds
+selectCodeEditor("top.sv", 352, 233); // cl (w, cl)
+selectCodeEditor("top.sv", 168, 249); // cl (w, cl)
+selectCodeEditor("top.sv", 168, 249, false, false, false, false, true); // cl (w, cl) - Double Click
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking 1563ms to process. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1563 ms.
+selectCodeEditor("top.sv", 135, 253); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.sv", 175, 132); // cl (w, cl)
+selectCodeEditor("top.sv", 175, 132, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+selectCodeEditor("top.sv", 139, 278); // cl (w, cl)
+selectCodeEditor("top.sv", 139, 278, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 10 seconds
+selectCodeEditor("top.sv", 380, 188); // cl (w, cl)
+selectCodeEditor("top.sv", 382, 183); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 35 seconds
+selectCodeEditor("top.sv", 305, 281); // cl (w, cl)
+selectCodeEditor("top.sv", 305, 281, false, false, false, false, true); // cl (w, cl) - Double Click
+// Elapsed time: 935 seconds
+selectCodeEditor("top.sv", 133, 158); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 10 seconds
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 47 MB. Current time: 1/12/23, 9:57:35 PM MSK
+// Run Command: RDIResourceCommand.RDICommands_COPY
+selectCodeEditor("top.sv", 150, 204); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 47 MB. Current time: 1/12/23, 10:27:35 PM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 47 MB. Current time: 1/12/23, 10:57:36 PM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 46 MB. Current time: 1/12/23, 11:27:36 PM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 46 MB. Current time: 1/12/23, 11:57:36 PM MSK
+// Elapsed time: 7763 seconds
+selectCodeEditor("top.sv", 233, 317); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 145 seconds
+selectCodeEditor("top.sv", 232, 377); // cl (w, cl)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 72 seconds
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 71 seconds
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 16 seconds
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 687 seconds
+selectCodeEditor("top.sv", 141, 310); // cl (w, cl)
+selectCodeEditor("top.sv", 147, 290); // cl (w, cl)
+// Elapsed time: 104 seconds
+selectCodeEditor("top.sv", 178, 126); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 46 MB. Current time: 1/13/23, 12:27:37 AM MSK
+// Elapsed time: 140 seconds
+selectCodeEditor("top.sv", 176, 302); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HEventQueue.dispatchEvent() is taking  1220 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+selectCodeEditor("top.sv", 245, 349); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+selectCodeEditor("top.sv", 311, 341); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 69 seconds
+selectCodeEditor("top.sv", 258, 350); // cl (w, cl)
+selectCodeEditor("top.sv", 258, 350, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+selectCodeEditor("top.sv", 373, 356); // cl (w, cl)
+selectCodeEditor("top.sv", 373, 356, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+selectCodeEditor("top.sv", 253, 339); // cl (w, cl)
+selectCodeEditor("top.sv", 253, 339, false, false, false, false, true); // cl (w, cl) - Double Click
+selectCodeEditor("top.sv", 257, 352); // cl (w, cl)
+selectCodeEditor("top.sv", 257, 352, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+selectCodeEditor("top.sv", 190, 403); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// Elapsed time: 42 seconds
+selectCodeEditor("top.sv", 219, 346); // cl (w, cl)
+// Elapsed time: 1486 seconds
+selectCodeEditor("top.sv", 111, 284); // cl (w, cl)
+selectCodeEditor("top.sv", 111, 284, false, false, false, false, true); // cl (w, cl) - Double Click
+typeControlKey((HResource) null, "top.sv", 'c'); // cl (w, cl)
+selectCodeEditor("top.sv", 213, 348); // cl (w, cl)
+selectCodeEditor("top.sv", 219, 348); // cl (w, cl)
+typeControlKey((HResource) null, "top.sv", 'v'); // cl (w, cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 47 MB. Current time: 1/13/23, 12:57:37 AM MSK
+// Elapsed time: 1311 seconds
+selectCodeEditor("top.sv", 383, 343); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 47 MB. Current time: 1/13/23, 1:27:37 AM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 46 MB. Current time: 1/13/23, 1:57:38 AM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 46 MB. Current time: 1/13/23, 2:27:38 AM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 47 MB. Current time: 1/13/23, 2:57:38 AM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 46 MB. Current time: 1/13/23, 3:27:38 AM MSK
